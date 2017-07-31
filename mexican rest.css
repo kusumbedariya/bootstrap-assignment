@@ -1,0 +1,306 @@
+﻿
+
+#top-nav li a
+{  color:#AE8C37; }
+        
+#top-nav li a:hover
+{ color: white; background-color:transparent;   }
+            
+#main-menu li a
+{   
+    display:block;
+    color:white;
+}
+#main-menu li a:hover
+{     
+    background-color: #888A05;
+    border-radius:0px;
+    
+}
+
+
+@media only screen and (min-width:992px)
+{
+    #main-menu li a:hover
+{     
+    
+    height:9.7rem;
+}
+    #phone
+    {
+        font-size: 30px;
+    }
+    #slideshow
+    {
+        height: 40em;
+    }
+    #welcome,#history,#events
+    {
+        margin-top: -1em; 
+        
+    }
+     .lunch
+    {
+        height:10rem;text-overflow:ellipsis; padding-left:1.5rem; padding-top:0px
+
+     }
+    .lunchimg
+    {
+        height:10rem
+    }
+       .content
+    {
+        max-height: 24rem;
+    }
+       .featured
+    {
+        max-height: 14rem;
+    }
+       .reservations
+    {
+        max-height: 7rem;
+    }
+       .fromblog
+    {
+        max-height:8.5rem;
+    }
+    .fromtwitter
+    {
+        max-height: 17rem;
+    }
+    .frompost
+    {
+        max-height: 5rem;
+    }
+ 
+}
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+ 
+    #phone
+    {
+        font-size: 30px;
+    }
+    .lunchimg
+    {
+        height:20rem;
+    }
+    #slideshow
+    {
+        height: 30em;
+    }
+        
+   #welcome
+    {
+        margin-top: -1em;
+        
+    }
+      #history, #events
+    {
+        margin-top:1em;
+    }
+      .lift23
+    {
+        display: none;
+    }
+       .lunch
+    {
+        height:20rem;text-overflow:ellipsis; padding-left:1.5rem;padding-top:0px;
+    }
+   .content
+    {
+        max-height: 22rem;
+    }
+    .featured
+    {
+        max-height: 14rem;
+    }
+    .reservations
+    {
+        max-height: 7rem;
+    }
+    .fromblog
+    {
+        max-height:8.5rem;
+    }
+    .fromtwitter
+    {
+        max-height: 17rem;
+    }
+    .frompost
+    {
+        max-height: 5rem;
+    }
+
+}
+@media only screen and (min-width:361px) and (max-width:767px)
+{
+    #phone
+    {
+        font-size: 25px;
+    }
+    .content,.featured
+    {
+        max-height: 18rem;
+    }
+    .reservations
+    {
+        max-height: 6.2rem;
+    }
+     .lunch
+    {
+         height:5rem;text-overflow:ellipsis; padding-top:1rem; padding-left:0px;
+    }
+    #slideshow
+    {
+        height:25em;
+    }
+    #welcome
+    {
+        margin-top: -1em;
+        
+    }
+       #history, #events
+    {
+        margin-top:1em;
+    }
+       #welcome,#history,#events
+    {
+         text-overflow:clip;   overflow:hidden; font-size:22px; 
+         box-shadow:rgba(0,0,0,0.6) 15px 0px 10px;       
+    }
+
+    
+    .lift23
+    {
+        display: none;
+    }
+    
+    .lunchimg
+    {
+        height:20rem;
+    }
+    .fromblog
+    {
+        max-height:8.5rem;
+    }
+    .fromtwitter
+    {
+        max-height: 17rem;
+    }
+    .frompost
+    {
+        max-height: 5rem;
+    }
+
+}
+@media only screen and (max-width:360px)
+{
+    #phone
+    {
+        font-size: 25px;
+    }
+    .reservations
+    {
+        max-height: 6.2rem;
+    }
+    .content
+    {
+        max-height: 13rem;
+    }
+    .featured
+    {
+        max-height:12rem;
+    }
+    .fromblog
+    {
+        max-height:8.5rem;
+    }
+    .fromtwitter
+    {
+        max-height: 17rem;
+    }
+    .frompost
+    {
+        max-height: 5rem;
+    }
+    .lunch
+    {
+         height:5rem;text-overflow:ellipsis; padding-top:1rem; padding-left:0px;
+    }
+    #slideshow
+    {
+        height: 15em;
+    }
+
+    #welcome
+    {
+        margin-top: -1em;
+    }
+
+    #welcome, #history, #events
+    {
+        max-height: 400px;
+        text-overflow: clip;
+        overflow: hidden;
+        font-size: 18px;
+        
+        box-shadow:rgba(0,0,0,0.6) 15px 0px 10px;
+        
+    }
+    
+
+    #history, #events
+    {
+        margin-top: 1em;
+    }
+
+    .lift23
+    {
+        display: none;
+    }
+
+   
+}
+
+.lift1
+{
+    height: 2.2rem;
+    width: 2rem;
+    position: absolute;
+    top: 0px;
+    left: -2rem;
+}
+.lift23
+{
+    height: 2.2rem;
+    width: 2rem;
+    position: absolute;
+    top: 0px;
+    left: -2rem;
+}
+.boxshade {  position: relative;}
+.boxshade:after {
+  z-index:-1; 
+  position: absolute; 
+  content: "";
+  bottom: 8px;
+  right:7px;
+  width: 50%; 
+  top: 1.5rem;   
+  box-shadow: 20px 0 10px rgba(0, 0, 0, 0.7);
+  transform: rotate(2deg);
+}
+.lunch
+{
+    
+    word-wrap:break-word;
+    
+}
+.lunchimg
+{
+}
+.content,.featured,.reservations,.fromblog,.fromtwitter,.frompost
+{
+   word-wrap:break-word; text-overflow:ellipsis; overflow:hidden;
+}
